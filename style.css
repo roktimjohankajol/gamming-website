@@ -16,11 +16,30 @@ a:active{
 a{
     color: #3C354F;
 }
+.primary-btn{
+    padding: 20px 40px;
+    background-color: #F442A6;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.secondary-btn{
+    padding: 20px 40px;
+    background-color: #4EC5F7;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+}
 nav{
     box-shadow: 0 1px 19px 0 rgba(0, 0, 0, 0.05);
 }
 .container{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 }
 .nav-area{
@@ -32,11 +51,11 @@ nav{
 .nav-menu ul{
     display: flex;
     list-style: none;
-    padding: 15px 30px;
+    padding: 15px;
     align-items: center;
 }
 .nav-menu ul li{
-    padding: 0 20px;
+    padding: 0 15px;
 }
 .nav-menu ul li a{
     text-decoration: none;
@@ -49,3 +68,81 @@ nav{
     color: red;
     font-size: 25px;
 }
+
+/* ************************** Banner Section ************************** */
+
+.banner{
+    background-image: url('images/Group\ 14.png');
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.banner-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-button{
+    padding: 50px 0;
+}
+.banner-row .column-1 h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: normal;
+    font-weight: 600;
+}
+.banner-row .column-1 h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: normal;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-row .column-1 p img{
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+}
+.banner-row .column-1 p{
+    padding: 8px 0;
+}
+
+
+/* ************************** END Banner section ************************** */
+
+.gamer-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 80px 0;
+}
+.gamer-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamer-row .column-2{
+    text-align: right;
+}
+.gamer-row .column-2 a{
+    margin: 20px 0;
+    display: inline-block;
+}
+.gamer-row .column-2 h2{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-row .column-2 p{
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+
+/* ************************** END GAMER SECTION ***************************** */
+
