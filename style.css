@@ -444,3 +444,38 @@ footer{
     font-weight: 300;
     font-size: 16px;
 }
+
+
+
+/* ************************ Responsive for mobile ******************************* */
+
+@media only screen and (max-width: 600px) {
+    
+    .nav-area{
+        flex-direction: column;
+    }
+    .banner-row{
+        flex-direction: column-reverse;
+    }
+    .gamer-row{
+        flex-direction: column-reverse;
+    }
+    .online-game-row{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .play-row{
+        flex-direction: column;
+    }
+    .play-row-2{
+        flex-direction: column;
+    }
+    .career-section-2{
+        background: none;
+    }
+    .hover-section-row{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+  }
