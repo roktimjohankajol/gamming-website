@@ -460,9 +460,16 @@ footer{
     .gamer-row{
         flex-direction: column-reverse;
     }
+    .gamer-row .column-2{
+        width: 600px;
+        text-align: center;
+    }
     .online-game-row{
         flex-direction: column;
         justify-content: center;
+    }
+    .play-row-2 .column-1{
+        padding: 200px 0 0 0;
     }
     .play-row{
         flex-direction: column;
@@ -477,5 +484,5 @@ footer{
         flex-direction: column;
         justify-content: center;
     }
-    
+
   }
